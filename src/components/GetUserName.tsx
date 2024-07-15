@@ -74,7 +74,7 @@ const GetUsername: React.FC = () => {
           value={userName}
           placeholder="Username"
           onChange={(e) => setuserName(e.target.value)}
-          className="box-border text-lg font-poppins rounded-md text-black p-3 pl-4 border-2 border-blue bg-dark w-full mb-3 text-left"
+          className="box-border z-[4] text-lg font-poppins rounded-md text-black p-3 pl-4 border-2 border-blue bg-dark w-full mb-3 text-left"
         />
         <input
           type="text"
