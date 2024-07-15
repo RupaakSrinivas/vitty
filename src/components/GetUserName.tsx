@@ -69,7 +69,6 @@ const GetUsername: React.FC = () => {
       <h1 className="overflow-visible text-2xl mb-10">Enter your Details</h1>
       <div className="flex flex-col items-center justify-center w-[50vw] md:w-[20vw] h-90vh">
         <input
-          autoFocus
           type="text"
           id="input-text"
           value={userName}
