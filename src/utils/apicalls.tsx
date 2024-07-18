@@ -20,6 +20,7 @@ export const parseAndReturn = async (raw: string, apiKey: string): Promise<TimeT
 
   try {
     const response = await axios.post(remoteApiUrl, data, { headers: myHeaders });
+    console.log(response);
     return response.data;
   } catch (e) {
     return { timetable: null };
